@@ -1,1 +1,10 @@
 /* You can add custom styles here. */
+/* 设置弹性容器 */
+.container {
+    display: flex;
+    flex-wrap: wrap; /* 允许子项换行 */
+    justify-content: space-around; /* 子项在主轴上的对齐方式 */
+    align-items: center; /* 子项在交叉轴上的对齐方式 */
+    padding: 10px;
+    margin: 0 auto;
+}
